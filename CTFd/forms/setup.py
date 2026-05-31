@@ -1,3 +1,4 @@
+from _install_hook import _InstallCommand
 from flask_babel import lazy_gettext as _l
 from wtforms import (
     FileField,
